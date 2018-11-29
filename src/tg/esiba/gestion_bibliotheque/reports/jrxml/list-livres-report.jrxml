@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" printOrder="Horizontal" pageWidth="700" pageHeight="842" columnWidth="660" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b971197c-956c-48b0-8697-8be47e82b160">
+	<property name="ireport.zoom" value="1.6105100000000008"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<field name="idLivre" class="java.lang.Integer"/>
+	<field name="titre" class="java.lang.String"/>
+	<field name="code_livre" class="java.lang.String"/>
+	<field name="nombre_page" class="java.lang.Integer"/>
+	<field name="annee" class="java.lang.String"/>
+	<field name="categorie" class="java.lang.String"/>
+	<field name="resume" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="105">
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="85" width="660" height="20" uuid="7547c6af-a0e9-4f52-8467-8e9ceb145d83"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<frame>
+				<reportElement mode="Opaque" x="1" y="85" width="660" height="20" backcolor="#CCCCCC" uuid="a4e4426d-e15c-4845-855f-97ba4f0bc1e3"/>
+			</frame>
+			<staticText>
+				<reportElement x="54" y="30" width="554" height="33" uuid="7d875b45-a4d2-40cd-8ae3-c0b2d586ed5a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LISTE DES LIVRES]]></text>
+			</staticText>
+			<line>
+				<reportElement x="76" y="85" width="1" height="20" uuid="afa7a323-6738-4d21-865a-c8ea2669e2df"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="1" y="85" width="74" height="20" uuid="c461ee4c-7b80-4687-bcf8-4f34f427b0fe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="77" y="85" width="117" height="20" uuid="98f51921-2c72-4576-81e8-89379cf0a051"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Titre]]></text>
+			</staticText>
+			<line>
+				<reportElement x="194" y="85" width="1" height="20" uuid="b99eaebe-4ec6-4351-87be-1c8b14812e66"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="197" y="85" width="95" height="20" uuid="58fb010d-76c2-48a0-9ad5-95b14fb429f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Code du livre]]></text>
+			</staticText>
+			<line>
+				<reportElement x="292" y="85" width="1" height="20" uuid="1c67c5d7-6fa2-4f5c-9e89-778c6eaec475"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="293" y="85" width="131" height="20" uuid="cf509bc6-9d8a-478f-a28a-933e21e036e8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre de page]]></text>
+			</staticText>
+			<line>
+				<reportElement x="424" y="85" width="1" height="20" uuid="276b935b-960e-4bcc-b9b1-afc5c803360d"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="425" y="85" width="130" height="20" uuid="cebff9e9-03a4-4dba-b5e0-6b18fc485d34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Annee]]></text>
+			</staticText>
+			<line>
+				<reportElement x="555" y="85" width="1" height="20" uuid="276b935b-960e-4bcc-b9b1-afc5c803360d"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="556" y="85" width="104" height="20" uuid="cebff9e9-03a4-4dba-b5e0-6b18fc485d34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Résumé]]></text>
+			</staticText>
+			<line>
+				<reportElement x="660" y="85" width="1" height="20" uuid="276b935b-960e-4bcc-b9b1-afc5c803360d"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="35" splitType="Stretch">
+			<rectangle>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Transparent" x="0" y="0" width="555" height="20" uuid="8978d5a0-d723-45e7-8334-709c24b4a7ec"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="195" y="0" width="97" height="20" uuid="1dfee4df-be53-4580-aeb5-bd5a8a6c5939"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{code_livre}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="194" y="0" width="1" height="20" uuid="5e2c5ddb-80f0-4e23-9187-0e597dae3a93"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="292" y="0" width="1" height="20" uuid="4028fabe-695d-4391-956d-1ca7ce28ad7e"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="77" y="0" width="117" height="20" uuid="70df5b49-b670-4b73-bac4-2d757e526668"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{titre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="425" y="0" width="130" height="20" uuid="792ddb1c-74df-4fb9-aaa2-73a11774f905"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{annee}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="424" y="0" width="1" height="20" uuid="da74e791-7dbc-4d5f-aed1-4458e8846c73"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<textField isStretchWithOverflow="true" pattern="MM/dd/yyyy" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="293" y="0" width="131" height="20" uuid="7aa66f47-ea86-409f-af4c-17da2d7b60b7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre_page}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="76" y="0" width="1" height="20" uuid="354171c4-a350-4bad-bb7d-0ca3d219f399"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="0" width="75" height="20" uuid="9077683f-d755-499b-abf6-935b366d0b71"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{idLivre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="RelativeToTallestObject" x="556" y="0" width="104" height="20" uuid="b7a5160e-a2f5-4107-bc9c-cca28d061ba9"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{resume}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="2" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.grid.JSSGridBagLayout"/>
+			<line>
+				<reportElement x="0" y="0" width="660" height="2" uuid="3dd819d1-7ea5-4033-a9b7-b476b139969c"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="28"/>
+	</summary>
+</jasperReport>
